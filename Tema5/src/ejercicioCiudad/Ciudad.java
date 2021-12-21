@@ -60,8 +60,10 @@ public class Ciudad {
 		for (int i = 0; i < temperaturaMaxima.length; i++) {
 			if (temperaturaMaxima[i]<temp) {
 				temp= temperaturaMaxima[i];
+				System.out.println("hola");
 			}
 		}
 		return temp;
+		
 	}
 }
